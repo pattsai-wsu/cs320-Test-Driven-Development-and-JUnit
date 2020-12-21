@@ -1,0 +1,36 @@
+/*
+ * NAME: Patrick Tsai
+ * CLASS: WSUV CS320 - MW 10:30am
+ * ASSIGNMENT: Homework 1 - TDD and JUnit
+ * DUE DATE: 09/11/2020
+ * DESCRIPTION: Created bounded stack using unit testing practices. First created a failing test in either BasicTest.java or AdvancedTest.java
+ *           Then wrote the code in MyStack.java to make the test pass once run again. Then I recorded any changes to the MyStack.java code
+ *           in the refactor.txt file.
+ */
+
+BasicTest Refactor after STEP 1: "inside public class added the the integer array, the capacity of the array, and current placement variables"
+                       "inside the constructor added the array construction and value for current placement"
+                       "created an isEmpty method, that uses the current placement as an indicator for if the stack is empty"
+
+BasicTest Refactor after STEP 2: "added a push method, that adds the value given to the top of the stack, increments current placement"
+
+BasicTest Refactor after STEP 3: "added a pop method, returns the top integer, decrements the current placement"
+
+BasicTest Refactor after STEP 4: "No Refactor"
+
+BasicTest Refactor after STEP 5: "No Refactor"
+
+BasicTest Refactor after STEP 6: "added if statements to pop method to check if stack is empty before procedure - checks isEmpty value"
+                        "if stack is empty on pop then NULL is returned"
+
+BasicTest Refactor after STEP 7: "created top method, returns value at the top of the stack"
+
+BasicTest Refactor after STEP 8: "No Refactor"
+
+=================================================================
+AdvancedTest Refactor after STEP 1: "added to top method - if else to return NULL if stack is empty"
+
+AdvancedTest Refactor after STEP 2: "added if statements to push to check if stack is full before procedure - compares current variable to stack.length"
+                        "if stack is full on push then an ArrayOutOfBounds exception is thrown"
+
+AdvancedTest Refactor after STEP 3: "No Refactor"
