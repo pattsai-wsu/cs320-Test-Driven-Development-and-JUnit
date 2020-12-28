@@ -5,7 +5,7 @@
  * DUE DATE: 09/11/2020
  * DESCRIPTION: Created bounded stack using unit testing practices. First created a failing test in either BasicTest.java or AdvancedTest.java
  *           Then wrote the code in MyStack.java to make the test pass once run again. Then I recorded any changes to the MyStack.java code
- *           in the refactor.txt file.
+ *           in the refactor.txt file. Will be uploaded to github after semester.
  */
 
 BasicTest Refactor after STEP 1: "inside public class added the the integer array, the capacity of the array, and current placement variables"
